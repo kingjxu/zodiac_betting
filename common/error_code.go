@@ -1,0 +1,13 @@
+package common
+
+const (
+	GENERIC_ERROR          = -10000
+	DB_READ_ERROR          = -10001
+	PRODUCT_NOT_EXIST      = -10002
+	IO_READ_ERROR          = -10003
+	REQ_PARAM_ERROR        = -10004
+	DB_WRITE_ERROR         = -10005
+	ADDR_NOT_EXIST         = -10006
+	GET_ACCESSTOKEN_FAILED = -10007
+	CREATE_WX_ORDER_FAILED = -10008
+)
